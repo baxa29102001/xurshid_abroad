@@ -35,4 +35,4 @@ console.log("Mr xurishni Branchi");
 
 console.log("Bolla choyxonaga kelila");
 
-
+console.log("Barno");
