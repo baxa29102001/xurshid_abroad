@@ -31,3 +31,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 console.log("dssdsd");
 console.log("Mr xurishni Branchi");
+
+
+console.log("Bolla choyxonaga kelila");
+
+
