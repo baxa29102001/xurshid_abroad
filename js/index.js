@@ -23,7 +23,7 @@ var swiper = new Swiper(".mySwiper", {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
   spaceBetween: 10,
-  centeredSlides: true,
+  centeredSlides: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: false,
