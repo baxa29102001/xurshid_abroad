@@ -26,6 +26,6 @@ var swiper = new Swiper(".mySwiper", {
   centeredSlides: false,
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
+    clickable: false,
   },
 });
