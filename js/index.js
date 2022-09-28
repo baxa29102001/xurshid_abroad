@@ -29,3 +29,5 @@ var swiper = new Swiper(".mySwiper", {
     clickable: false,
   },
 });
+console.log("dssdsd");
+console.log("Mr xurishni Branchi");
