@@ -22,12 +22,14 @@ var swiper = new Swiper(".mySwiper", {
 // Second Slider
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
-  spaceBetween: 30,
+  spaceBetween: 10,
   centeredSlides: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
+
+
 });
 
 
