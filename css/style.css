@@ -1,0 +1,65 @@
+@import "./normolize.css";
+@import "./header.css";
+@import "./intro.css";
+@import "./universities.css";
+@import "./services.css";
+@import "./news.css";
+@import "./events.css";
+
+
+
+/* PARAGRAPHS  */
+.all_paragraphs {
+    font-size: 22px;
+    line-height: 38px;
+    color: #7D7D7D;
+}
+
+
+/* BUTTONS  */
+.all_btns {
+    background: #717CFF;
+    border-radius: 11px;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding: 12px 34px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.all_btns:hover i {
+    transform: scale(1.5);
+
+}
+
+.all_btns:hover {
+    border: 2px solid #000;
+    color: #000;
+    transition: 0.5s;
+    background: #a6aad7;
+}
+
+.all_btns i {
+    margin-left: 34px;
+    color: #000;
+}
+
+
+/* ALL TITLES  */
+.gen_title {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+}
+
+@media (max-width: 775px) {
+    .gen_title {
+        font-size: 29px;
+        line-height: 44px;
+    }
+}

@@ -1,0 +1,161 @@
+.service_wrapper {
+    margin-bottom: 126px;
+}
+
+.service_title {
+    margin: 112px auto 25px;
+}
+
+.service_paragraph {
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+@media (max-width: 745px) {
+    .service_paragraph {
+        margin-bottom: 70px;
+    }
+}
+
+.ser_cards_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1440px) {
+    .ser_cards_wrapper {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .ser_cards_wrapper {
+        display: flex;
+        gap: 75px;
+        /* justify-content: space-around */
+    }
+}
+
+@media (max-width: 745px) {
+    .ser_cards_wrapper {
+        display: flex;
+        gap: 34px;
+    }
+}
+
+.cards_card {
+    width: 344px;
+    padding: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgb(216, 206, 206);
+    border-radius: 15px;
+}
+
+@media (max-width: 1440px) {
+    .cards_card {
+        width: 320px;
+    }
+}
+
+@media (max-width: 745px) {
+    .cards_card {
+        width: 300px;
+
+    }
+}
+
+@media (max-width: 745px) {
+    .cards_card {
+        width: 380px;
+
+    }
+}
+
+.cards_card:hover {
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+}
+
+.cards_img {
+    background: #717CFF;
+    border-radius: 40px;
+    padding: 22px;
+}
+
+.cards_img2 {
+    background: #FF5959;
+}
+
+.cards_img3 {
+    background: #70CE88;
+}
+
+.cards_img4 {
+    background: #5C96FF;
+}
+
+.cards_img5 {
+    background: #FA706C;
+
+}
+
+@media (max-width: 745px) {
+    .cards_img {
+        border-radius: 35px;
+        padding: 15px;
+    }
+}
+
+.cards_title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474F;
+}
+
+@media (max-width: 745px) {
+    .cards_title {
+        margin-top: 20px;
+    }
+}
+
+.cards_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(55, 71, 79, 0.721569);
+    margin: 9px 0 25px;
+}
+
+.cards_learnMoreBtn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.439286px;
+    color: #717CFF;
+    transition: 0.3s;
+
+}
+
+.cards_learnMoreBtn:hover {
+    /* transform: scale(1.1);  */
+    color: #a5acf1;
+
+}
+
+.cards_learnMoreBtn>i {
+    margin-left: 20px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.cards_learnMoreBtn:hover i {
+    transform: scale(1.2);
+}

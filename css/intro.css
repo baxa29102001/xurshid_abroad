@@ -1,0 +1,188 @@
+.intro {
+    background-image: url("../images/graduated_girl_background.png");
+    background-repeat: no-repeat;
+    background-position: 948px 150pxş
+}
+
+@media (max-width: 1999px) {
+    .intro {
+        background-position: 948px 150px
+    }
+}
+
+@media (max-width: 1540px) {
+    .intro {
+        background-position: 872px 150px
+    }
+}
+
+@media (max-width: 1430px) {
+    .intro {
+        background-position: 779px 150px
+    }
+}
+
+@media (max-width: 1230px) {
+    .intro {
+        background-position: 654px 150px
+    }
+}
+
+@media (max-width: 990px) {
+    .intro {
+        background-position: 463px 150px
+    }
+}
+
+@media (max-width:954px) {
+    .intro {
+        background-image: none;
+    }
+}
+
+@media (max-width: 917px) {
+    .intro {
+        background-image: url("../images/graduated_girl_background.png");
+        background-position: 358px 525px;;
+    }
+}
+@media (max-width: 760px) {
+    .intro {
+        /* background-image: url("../images/graduated_girl_background.png"); */
+        background-position: 182px 610px;
+    }
+}
+
+@media (max-width: 540px) {
+    .intro {
+        background-position: 40px 664px;
+    }
+}
+
+.inro_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 117px;
+}
+
+@media (max-width: 990px) {
+    .inro_wrapper {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 917px) {
+    .inro_wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+.intro_left {}
+
+@media (max-width: 917px) {
+    .intro_left {
+        text-align: center;
+    }
+}
+
+.intro_title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 66px;
+    color: #2F2F2F;
+    margin: 23px 0 20px;
+}
+
+@media (max-width:870px) {
+    .intro_title {
+        font-size: 46px;
+    }
+}
+
+.intro_title span {
+    color: #717CFF;
+}
+
+.intro_paragraph {
+    width: 86%;
+}
+
+@media (max-width:954px) {
+    .intro_paragraph {
+        width: 99%;
+    }
+}
+
+@media (max-width: 917px) {
+    .intro_paragraph {
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:870px) {
+    .intro_paragraph {
+        font-size: 20px;
+    }
+}
+
+.intro_btn {
+    margin: 42px 0 104px;
+}
+
+@media (max-width: 917px) {
+    .intro_btn {
+        margin: 32px 0 66px;
+
+    }
+}
+
+.intro_icons_wrapper {
+    display: flex;
+    gap: 26px;
+    margin-bottom: 54px;
+}
+
+@media (max-width: 917px) {
+    .intro_icons_wrapper {
+        justify-content: center;
+        margin-bottom: 44px;
+    }
+}
+
+.intro_icon {
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.intro_icon:hover {
+    transform: scale(1.4);
+    color: #717CFF;
+}
+
+.intro_right {
+    display: flex;
+}
+
+@media (max-width:954px) {
+    .intro_right {}
+}
+
+@media (max-width: 917px) {
+    .intro_right {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 488px) {
+    .intro_right img {
+        width: 85%;
+    }
+}
